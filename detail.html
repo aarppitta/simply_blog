@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details</title>
+</head>
+<body>
+
+    <form>
+  
+        <div class="mb-3">
+          <label class="title form-label">Blog Title</label>
+          <input type="text" class="form-control"> 
+        </div>
+    
+        <div class="mb-3">
+          <label class="content form-label">Blog Content</label>
+          <input type="text" class="form-control">
+        </div>
+        
+        <div class="mb-3">
+          <label class="img form-label">Upload Image</label>
+          <input type="file" id="myfile" accept="image/jpeg,image/png, image/jpg">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </form>
+
+    <script>
+
+        var data  = window.location.search;
+        console.log(data);
+    </script>
+</body>
+</html>
